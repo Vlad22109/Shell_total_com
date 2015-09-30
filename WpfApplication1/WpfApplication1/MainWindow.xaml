@@ -5,7 +5,7 @@
     <Grid Margin="0,0,-8,-6">
         <DataGrid HorizontalAlignment="Left" Height="35" Margin="666,405,0,0" VerticalAlignment="Top" Width="76"/>
         <Button Content="c:\" HorizontalAlignment="Left" Height="29" Margin="388,50,0,0" VerticalAlignment="Top" Width="51"/>
-        <Button Content="d:\" HorizontalAlignment="Left" Height="29" Margin="458,50,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.471,0.517"/>
+        <Button Content="d:\" HorizontalAlignment="Left" Height="29" Margin="458,50,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.471,0.517" Click="Button_Click_1"/>
         <Button Content="e:\" HorizontalAlignment="Left" Height="29" Margin="527,50,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.471,0.517"/>
         <Button Content="f:\" HorizontalAlignment="Left" Height="29" Margin="597,50,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.486,0.365"/>
         <Button Content="web\" HorizontalAlignment="Left" Height="29" Margin="666,50,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.486,0.365"/>
@@ -16,11 +16,20 @@
         <TextBlock HorizontalAlignment="Left" Height="29" Margin="170,44,0,0" TextWrapping="Wrap" Text="search" VerticalAlignment="Top" Width="92"/>
         <Button Content="open" HorizontalAlignment="Left" Height="29" Margin="348,411,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.471,0.517"/>
         <Button Content="Search" HorizontalAlignment="Left" Height="29" Margin="88,44,0,0" VerticalAlignment="Top" Width="51" Click="Button_Click"/>
-        <GroupBox  DockPanel.Dock="Bottom" Margin="10,10,-10,-10">
-            <TextBlock Text="Выберите файл для редактирования с помощью кнопки disk и сохранение изменения с помощью кнопки Save" 
-    FontSize="14" TextWrapping ="Wrap" Margin="0,113,388,81"/>
-        </GroupBox >
-        <TextBlock Text="Выберите файл для редактирования с помощью кнопки disk и сохранение изменения с помощью кнопки Save" 
-        	FontSize="14" TextWrapping ="Wrap" Margin="390,123,10,77"/>
+        <ListView HorizontalAlignment="Left" Height="290" Margin="10,96,0,0" VerticalAlignment="Top" Width="367" SelectionChanged="ListView_SelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <ListView HorizontalAlignment="Left" Height="290" Margin="388,96,0,0" VerticalAlignment="Top" Width="354">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
     </Grid>
 </Window>
