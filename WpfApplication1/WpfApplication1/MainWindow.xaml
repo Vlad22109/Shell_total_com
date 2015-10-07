@@ -3,7 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="473.88" Width="751.866">
     <Grid Margin="0,0,-8,-6">
-        <DataGrid HorizontalAlignment="Left" Height="35" Margin="666,405,0,0" VerticalAlignment="Top" Width="76"/>
         <Button Content="c:\" HorizontalAlignment="Left" Height="29" Margin="388,50,0,0" VerticalAlignment="Top" Width="51"/>
         <Button Content="d:\" HorizontalAlignment="Left" Height="29" Margin="458,50,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.471,0.517" Click="Button_Click_1"/>
         <Button Content="e:\" HorizontalAlignment="Left" Height="29" Margin="527,50,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.471,0.517"/>

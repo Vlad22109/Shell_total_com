@@ -71,7 +71,7 @@ namespace WpfApplication1 {
             {
             case 1:
             
-            #line 8 "..\..\MainWindow.xaml"
+            #line 7 "..\..\MainWindow.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_1);
             
             #line default
@@ -79,7 +79,7 @@ namespace WpfApplication1 {
             return;
             case 2:
             
-            #line 18 "..\..\MainWindow.xaml"
+            #line 17 "..\..\MainWindow.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click);
             
             #line default
@@ -87,7 +87,7 @@ namespace WpfApplication1 {
             return;
             case 3:
             
-            #line 19 "..\..\MainWindow.xaml"
+            #line 18 "..\..\MainWindow.xaml"
             ((System.Windows.Controls.ListView)(target)).SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.ListView_SelectionChanged);
             
             #line default
