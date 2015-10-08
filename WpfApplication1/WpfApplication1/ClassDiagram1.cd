@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="WpfApplication1.State" Collapsed="true">
-    <Position X="4.25" Y="0.5" Width="1.5" />
+    <Position X="5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
       <FileName>State.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WpfApplication1.StateCopy">
-    <Position X="3.5" Y="1.5" Width="1.5" />
+    <Position X="5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
       <FileName>StateCopy.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WpfApplication1.StateCut">
-    <Position X="1.75" Y="1.5" Width="1.5" />
+    <Position X="2.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
       <FileName>StateCut.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WpfApplication1.StateDelete">
-    <Position X="7" Y="1.5" Width="1.5" />
+    <Position X="9.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
       <FileName>StateDelete.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WpfApplication1.StatePastle">
-    <Position X="5.25" Y="1.5" Width="1.5" />
+    <Position X="7.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
       <FileName>StatePastle.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WpfApplication1.Context">
-    <Position X="9" Y="0.5" Width="1.5" />
+    <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAIAAAAABAAAAAA=</HashCode>
       <FileName>Context.cs</FileName>
