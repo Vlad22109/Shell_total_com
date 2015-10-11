@@ -5,7 +5,7 @@ using System.Text;
 
 namespace WpfApplication1
 {
-    class Context : State
+    class Context
     {
         public State State { get; set; }
     
@@ -18,7 +18,7 @@ namespace WpfApplication1
             this.State.Handle(this);
         }
 
-        public override void Handle(Context context)
+        public void Handle(Context context)
         {
             throw new NotImplementedException();
         }
