@@ -8,7 +8,7 @@ namespace WpfApplication1
     class Context
     {
         public State State { get; set; }
-    
+
         public Context(State state)
         {
             this.State = state;

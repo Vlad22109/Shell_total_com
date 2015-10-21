@@ -34,9 +34,9 @@ namespace WpfApplication1
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             DirectoryInfo d = new DirectoryInfo(@"D:\");
-            
-                       
-            
+
+
+
         }
 
         private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)

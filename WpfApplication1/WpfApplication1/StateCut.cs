@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WpfApplication1
 {
-    class StateCut:State
+    class StateCut : State
     {
         public override void Handle(Context context)
         {
