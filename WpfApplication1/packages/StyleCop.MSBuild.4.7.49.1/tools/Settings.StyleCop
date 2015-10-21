@@ -778,22 +778,12 @@
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
         </Rule>
-        <Rule Name="DocumentationLinesMustBeginWithSingleSpace">
+        <Rule Name="SemicolonsMustBeSpacedCorrectly">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
         </Rule>
-        <Rule Name="SingleLineCommentsMustBeginWithSingleSpace">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
-        <Rule Name="PreprocessorKeywordsMustNotBePrecededBySpace">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
-        <Rule Name="OperatorKeywordMustBeFollowedBySpace">
+        <Rule Name="SymbolsMustBeSpacedCorrectly">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
