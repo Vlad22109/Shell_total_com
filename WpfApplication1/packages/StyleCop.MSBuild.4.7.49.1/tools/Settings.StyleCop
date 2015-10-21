@@ -481,32 +481,17 @@
     </Analyzer>
     <Analyzer AnalyzerId="StyleCop.CSharp.MaintainabilityRules">
       <Rules>
-        <Rule Name="StatementMustNotUseUnnecessaryParenthesis">
+        <Rule Name="CodeAnalysisSuppressionMustHaveJustification">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
         </Rule>
-        <Rule Name="ArithmeticExpressionsMustDeclarePrecedence">
+        <Rule Name="DebugAssertMustProvideMessageText">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
         </Rule>
-        <Rule Name="ConditionalExpressionsMustDeclarePrecedence">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
-        <Rule Name="RemoveDelegateParenthesisWhenPossible">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
-        <Rule Name="AttributeConstructorMustNotUseUnnecessaryParenthesis">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
-        <Rule Name="RemoveUnnecessaryCode">
+        <Rule Name="DebugFailMustProvideMessageText">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
