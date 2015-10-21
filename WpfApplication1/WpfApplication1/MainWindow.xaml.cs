@@ -16,32 +16,36 @@ using System.Windows.Shapes;
 
 namespace WpfApplication1
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window
-    {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            DirectoryInfo d = new DirectoryInfo(@"D:\");
-
-
-
-        }
-
-        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-    }
+/// <summary>
+/// Логика взаимодействия для MainWindow.xaml
+/// </summary>
+public partial class MainWindow : Window
+{
+public MainWindow()
+{
+InitializeComponent();
 }
+
+private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+{
+
+}
+
+
+
+private void Button_Click(object sender, RoutedEventArgs e)
+{
+
+}
+
+
+private void SampleName(object sender, RoutedEventArgs e)
+{
+
+}
+
+
+
+}
+}
+

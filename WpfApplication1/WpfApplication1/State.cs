@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace WpfApplication1
 {
-    abstract class State
-    {
-        public abstract void Handle(Context context);
-    }
+abstract class State
+{
+public abstract void Handle(Context context);
+}
 }
