@@ -5,8 +5,8 @@ using System.Text;
 
 namespace WpfApplication1
 {
-    class Context
-    {
+class Context
+{
         public State State { get; set; }
 
         public Context(State state)
