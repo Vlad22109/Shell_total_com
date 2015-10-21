@@ -693,6 +693,11 @@
     </Analyzer>
     <Analyzer AnalyzerId="StyleCop.CSharp.SpacingRules">
       <Rules>
+        <Rule Name="OpeningCurlyBracketsMustBeSpacedCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
         <Rule Name="ClosingCurlyBracketsMustBeSpacedCorrectly">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
