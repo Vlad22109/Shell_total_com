@@ -20,6 +20,7 @@
     <Analyzer AnalyzerId="StyleCop.CSharp.NamingRules">
       <AnalyzerSettings>
         <CollectionProperty Name="Hungarian">
+          <Value> </Value>
           <Value>as</Value>
           <Value>do</Value>
           <Value>id</Value>
