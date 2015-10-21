@@ -693,32 +693,32 @@
     </Analyzer>
     <Analyzer AnalyzerId="StyleCop.CSharp.SpacingRules">
       <Rules>
-        <Rule Name="MemberAccessSymbolsMustBeSpacedCorrectly">
+        <Rule Name="OpeningParenthesisMustBeSpacedCorrectly">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
         </Rule>
-        <Rule Name="IncrementDecrementSymbolsMustBeSpacedCorrectly">
+        <Rule Name="ClosingParenthesisMustBeSpacedCorrectly">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
         </Rule>
-        <Rule Name="NegativeSignsMustBeSpacedCorrectly">
+        <Rule Name="OpeningSquareBracketsMustBeSpacedCorrectly">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
         </Rule>
-        <Rule Name="PositiveSignsMustBeSpacedCorrectly">
+        <Rule Name="ClosingSquareBracketsMustBeSpacedCorrectly">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
         </Rule>
-        <Rule Name="DereferenceAndAccessOfSymbolsMustBeSpacedCorrectly">
+        <Rule Name="OpeningCurlyBracketsMustBeSpacedCorrectly">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
         </Rule>
-        <Rule Name="ColonsMustBeSpacedCorrectly">
+        <Rule Name="ClosingCurlyBracketsMustBeSpacedCorrectly">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
