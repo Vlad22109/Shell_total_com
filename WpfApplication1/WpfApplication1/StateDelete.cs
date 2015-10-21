@@ -5,8 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace WpfApplication1
-{
-    class StateDelete : State
+{class StateDelete : State
     {
         public override void Handle(Context context)
         {

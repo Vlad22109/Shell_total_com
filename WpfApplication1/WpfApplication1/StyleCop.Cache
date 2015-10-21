@@ -6,7 +6,7 @@
   <sourcecode name="Context.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015.10.11 20:04:01.224</styleCop>
-      <settingsFile>2015.10.21 16:30:21.261</settingsFile>
+      <settingsFile>2015.10.21 16:44:15.249</settingsFile>
       <sourceFile>2015.10.21 15:27:20.018</sourceFile>
       <parser>2015.10.11 20:04:01.224</parser>
       <StyleCop.CSharp.DocumentationRules>2015.10.11 20:04:01.224</StyleCop.CSharp.DocumentationRules>
@@ -27,6 +27,41 @@
       <StyleCopPlus.StyleCopPlusRules.FilesHashCode>0</StyleCopPlus.StyleCopPlusRules.FilesHashCode>
     </timestamps>
     <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The class must have a documentation header.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The class must have an access modifier.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>8</line>
@@ -42,9 +77,29 @@
         <line>25</line>
         <warning>False</warning>
       </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All properties must be placed after all constructors.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The constructor must have a documentation header.</context>
+        <line>12</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketMustBeFollowedByBlankLine" ruleCheckId="SA1513">
+        <context>Statements or elements wrapped in curly brackets must be followed by a blank line.</context>
+        <line>15</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
@@ -67,6 +122,16 @@
         <line>15</line>
         <warning>False</warning>
       </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>16</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="SA1516">
+        <context>Adjacent elements must be separated by a blank line.</context>
+        <line>16</line>
+        <warning>False</warning>
+      </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>16</line>
@@ -85,6 +150,11 @@
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>19</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>21</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
@@ -112,7 +182,7 @@
   <sourcecode name="State.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015.10.11 20:04:01.224</styleCop>
-      <settingsFile>2015.10.21 16:30:21.261</settingsFile>
+      <settingsFile>2015.10.21 16:44:15.249</settingsFile>
       <sourceFile>2015.10.21 16:26:48.275</sourceFile>
       <parser>2015.10.11 20:04:01.224</parser>
       <StyleCop.CSharp.DocumentationRules>2015.10.11 20:04:01.224</StyleCop.CSharp.DocumentationRules>
@@ -133,6 +203,46 @@
       <StyleCopPlus.StyleCopPlusRules.FilesHashCode>0</StyleCopPlus.StyleCopPlusRules.FilesHashCode>
     </timestamps>
     <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The class must have a documentation header.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The class must have an access modifier.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>9</line>
@@ -148,6 +258,11 @@
         <line>12</line>
         <warning>False</warning>
       </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>11</line>
+        <warning>False</warning>
+      </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>11</line>
@@ -158,7 +273,7 @@
   <sourcecode name="StateCopy.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015.10.11 20:04:01.224</styleCop>
-      <settingsFile>2015.10.21 16:30:21.261</settingsFile>
+      <settingsFile>2015.10.21 16:44:15.249</settingsFile>
       <sourceFile>2015.10.07 22:25:41.256</sourceFile>
       <parser>2015.10.11 20:04:01.224</parser>
       <StyleCop.CSharp.DocumentationRules>2015.10.11 20:04:01.224</StyleCop.CSharp.DocumentationRules>
@@ -179,6 +294,57 @@
       <StyleCopPlus.StyleCopPlusRules.FilesHashCode>0</StyleCopPlus.StyleCopPlusRules.FilesHashCode>
     </timestamps>
     <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The class must have a documentation header.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The class must have an access modifier.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol ':' is invalid.</context>
+        <line>9</line>
+        <index>172</index>
+        <endIndex>172</endIndex>
+        <startLine>9</startLine>
+        <startColumn>20</startColumn>
+        <endLine>9</endLine>
+        <endColumn>20</endColumn>
+        <warning>False</warning>
+      </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>9</line>
@@ -192,6 +358,16 @@
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>18</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>11</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>17</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
@@ -229,7 +405,7 @@
   <sourcecode name="StateCut.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015.10.11 20:04:01.224</styleCop>
-      <settingsFile>2015.10.21 16:30:21.261</settingsFile>
+      <settingsFile>2015.10.21 16:44:15.249</settingsFile>
       <sourceFile>2015.10.21 15:29:08.430</sourceFile>
       <parser>2015.10.11 20:04:01.224</parser>
       <StyleCop.CSharp.DocumentationRules>2015.10.11 20:04:01.224</StyleCop.CSharp.DocumentationRules>
@@ -250,6 +426,46 @@
       <StyleCopPlus.StyleCopPlusRules.FilesHashCode>0</StyleCopPlus.StyleCopPlusRules.FilesHashCode>
     </timestamps>
     <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The class must have a documentation header.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The class must have an access modifier.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>9</line>
@@ -263,6 +479,16 @@
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>18</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>11</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>17</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
@@ -300,8 +526,8 @@
   <sourcecode name="StateDelete.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015.10.11 20:04:01.224</styleCop>
-      <settingsFile>2015.10.21 16:30:21.261</settingsFile>
-      <sourceFile>2015.10.21 15:29:08.421</sourceFile>
+      <settingsFile>2015.10.21 16:44:15.249</settingsFile>
+      <sourceFile>2015.10.21 16:56:28.835</sourceFile>
       <parser>2015.10.11 20:04:01.224</parser>
       <StyleCop.CSharp.DocumentationRules>2015.10.11 20:04:01.224</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>1017830596</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -321,6 +547,62 @@
       <StyleCopPlus.StyleCopPlusRules.FilesHashCode>0</StyleCopPlus.StyleCopPlusRules.FilesHashCode>
     </timestamps>
     <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsForMultiLineStatementsMustNotShareLine" ruleCheckId="SA1500">
+        <context>If a statement spans multiple lines, the opening curly bracket must be placed on its own line.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>8</line>
+        <index>150</index>
+        <endIndex>150</endIndex>
+        <startLine>8</startLine>
+        <startColumn>1</startColumn>
+        <endLine>8</endLine>
+        <endColumn>1</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The class must have a documentation header.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The class must have an access modifier.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>9</line>
@@ -328,12 +610,22 @@
       </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
+        <line>17</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
         <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>16</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
-        <line>18</line>
+        <line>10</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
@@ -358,12 +650,7 @@
       </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
-        <line>15</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
-        <context>Only tab characters are allowed to be used for indentation.</context>
-        <line>17</line>
+        <line>16</line>
         <warning>False</warning>
       </violation>
     </violations>
@@ -371,7 +658,7 @@
   <sourcecode name="StatePastle.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015.10.11 20:04:01.224</styleCop>
-      <settingsFile>2015.10.21 16:30:21.261</settingsFile>
+      <settingsFile>2015.10.21 16:44:15.249</settingsFile>
       <sourceFile>2015.10.21 16:30:25.781</sourceFile>
       <parser>2015.10.11 20:04:01.224</parser>
       <StyleCop.CSharp.DocumentationRules>2015.10.11 20:04:01.224</StyleCop.CSharp.DocumentationRules>
@@ -392,6 +679,46 @@
       <StyleCopPlus.StyleCopPlusRules.FilesHashCode>0</StyleCopPlus.StyleCopPlusRules.FilesHashCode>
     </timestamps>
     <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The class must have a documentation header.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The class must have an access modifier.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>9</line>
@@ -405,6 +732,16 @@
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>18</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>11</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>17</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
@@ -427,7 +764,7 @@
   <sourcecode name="ImageList.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015.10.11 20:04:01.224</styleCop>
-      <settingsFile>2015.10.21 16:30:21.261</settingsFile>
+      <settingsFile>2015.10.21 16:44:15.249</settingsFile>
       <sourceFile>2015.10.21 15:28:12.661</sourceFile>
       <parser>2015.10.11 20:04:01.224</parser>
       <StyleCop.CSharp.DocumentationRules>2015.10.11 20:04:01.224</StyleCop.CSharp.DocumentationRules>
@@ -448,6 +785,46 @@
       <StyleCopPlus.StyleCopPlusRules.FilesHashCode>0</StyleCopPlus.StyleCopPlusRules.FilesHashCode>
     </timestamps>
     <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The class must have a documentation header.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The class must have an access modifier.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All classes must be placed after all interfaces.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>8</line>
@@ -463,14 +840,34 @@
         <line>12</line>
         <warning>False</warning>
       </violation>
-      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
-        <context>Only tab characters are allowed to be used for indentation.</context>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
         <line>10</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
         <line>11</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="SA1516">
+        <context>Adjacent elements must be separated by a blank line.</context>
+        <line>11</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
+        <context>Only tab characters are allowed to be used for indentation.</context>
+        <line>11</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The interface must have a documentation header.</context>
+        <line>14</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="AdvancedNamingRules" ruleCheckId="SP0100">
@@ -498,7 +895,7 @@
   <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015.10.11 20:04:01.224</styleCop>
-      <settingsFile>2015.10.21 16:30:21.261</settingsFile>
+      <settingsFile>2015.10.21 16:44:15.249</settingsFile>
       <sourceFile>2015.10.21 16:22:41.280</sourceFile>
       <parser>2015.10.11 20:04:01.224</parser>
       <StyleCop.CSharp.DocumentationRules>2015.10.11 20:04:01.224</StyleCop.CSharp.DocumentationRules>
@@ -519,6 +916,16 @@
       <StyleCopPlus.StyleCopPlusRules.FilesHashCode>0</StyleCopPlus.StyleCopPlusRules.FilesHashCode>
     </timestamps>
     <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="SA1516">
+        <context>Adjacent elements must be separated by a blank line.</context>
+        <line>6</line>
+        <warning>False</warning>
+      </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>16</line>
@@ -534,7 +941,7 @@
   <sourcecode name="Resources.Designer.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015.10.11 20:04:01.224</styleCop>
-      <settingsFile>2015.10.21 16:30:21.261</settingsFile>
+      <settingsFile>2015.10.21 16:44:15.249</settingsFile>
       <sourceFile>2015.09.28 20:43:45.079</sourceFile>
       <parser>2015.10.11 20:04:01.224</parser>
       <StyleCop.CSharp.DocumentationRules>2015.10.11 20:04:01.224</StyleCop.CSharp.DocumentationRules>
@@ -559,7 +966,7 @@
   <sourcecode name=".NETFramework,Version=v4.5.AssemblyAttributes.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015.10.11 20:04:01.224</styleCop>
-      <settingsFile>2015.10.21 16:30:21.261</settingsFile>
+      <settingsFile>2015.10.21 16:44:15.249</settingsFile>
       <sourceFile>2015.10.20 18:22:22.472</sourceFile>
       <parser>2015.10.11 20:04:01.224</parser>
       <StyleCop.CSharp.DocumentationRules>2015.10.11 20:04:01.224</StyleCop.CSharp.DocumentationRules>
@@ -584,7 +991,7 @@
   <sourcecode name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015.10.11 20:04:01.224</styleCop>
-      <settingsFile>2015.10.21 16:30:21.261</settingsFile>
+      <settingsFile>2015.10.21 16:44:15.249</settingsFile>
       <sourceFile>2015.09.28 20:43:49.131</sourceFile>
       <parser>2015.10.11 20:04:01.224</parser>
       <StyleCop.CSharp.DocumentationRules>2015.10.11 20:04:01.224</StyleCop.CSharp.DocumentationRules>
@@ -604,12 +1011,18 @@
       <StyleCopPlus.StyleCopPlusRules>2015.10.11 20:04:01.224</StyleCopPlus.StyleCopPlusRules>
       <StyleCopPlus.StyleCopPlusRules.FilesHashCode>0</StyleCopPlus.StyleCopPlusRules.FilesHashCode>
     </timestamps>
-    <violations />
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
   </sourcecode>
   <sourcecode name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015.10.11 20:04:01.224</styleCop>
-      <settingsFile>2015.10.21 16:30:21.261</settingsFile>
+      <settingsFile>2015.10.21 16:44:15.249</settingsFile>
       <sourceFile>2015.09.28 20:43:49.132</sourceFile>
       <parser>2015.10.11 20:04:01.224</parser>
       <StyleCop.CSharp.DocumentationRules>2015.10.11 20:04:01.224</StyleCop.CSharp.DocumentationRules>
@@ -629,12 +1042,18 @@
       <StyleCopPlus.StyleCopPlusRules>2015.10.11 20:04:01.224</StyleCopPlus.StyleCopPlusRules>
       <StyleCopPlus.StyleCopPlusRules.FilesHashCode>0</StyleCopPlus.StyleCopPlusRules.FilesHashCode>
     </timestamps>
-    <violations />
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
   </sourcecode>
   <sourcecode name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015.10.11 20:04:01.224</styleCop>
-      <settingsFile>2015.10.21 16:30:21.261</settingsFile>
+      <settingsFile>2015.10.21 16:44:15.249</settingsFile>
       <sourceFile>2015.09.28 20:43:49.156</sourceFile>
       <parser>2015.10.11 20:04:01.224</parser>
       <StyleCop.CSharp.DocumentationRules>2015.10.11 20:04:01.224</StyleCop.CSharp.DocumentationRules>
@@ -654,12 +1073,18 @@
       <StyleCopPlus.StyleCopPlusRules>2015.10.11 20:04:01.224</StyleCopPlus.StyleCopPlusRules>
       <StyleCopPlus.StyleCopPlusRules.FilesHashCode>0</StyleCopPlus.StyleCopPlusRules.FilesHashCode>
     </timestamps>
-    <violations />
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
   </sourcecode>
   <sourcecode name="App.xaml.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015.10.11 20:04:01.224</styleCop>
-      <settingsFile>2015.10.21 16:30:21.261</settingsFile>
+      <settingsFile>2015.10.21 16:44:15.249</settingsFile>
       <sourceFile>2015.09.28 20:43:47.564</sourceFile>
       <parser>2015.10.11 20:04:01.224</parser>
       <StyleCop.CSharp.DocumentationRules>2015.10.11 20:04:01.224</StyleCop.CSharp.DocumentationRules>
@@ -680,6 +1105,46 @@
       <StyleCopPlus.StyleCopPlusRules.FilesHashCode>0</StyleCopPlus.StyleCopPlusRules.FilesHashCode>
     </timestamps>
     <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>6</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>7</line>
+        <warning>False</warning>
+      </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>11</line>
@@ -693,6 +1158,16 @@
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>13</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustEndWithAPeriod" ruleCheckId="SA1629">
+        <context>The documentation text within the summary tag must end with a period.</context>
+        <line>14</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementDocumentationMustBeSpelledCorrectly" ruleCheckId="SA1650">
+        <context>The documentation text within the summary tag contains incorrectly spelled words: Логика, взаимодействия, для, xaml</context>
+        <line>14</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
@@ -715,7 +1190,7 @@
   <sourcecode name="MainWindow.xaml.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015.10.11 20:04:01.224</styleCop>
-      <settingsFile>2015.10.21 16:30:21.261</settingsFile>
+      <settingsFile>2015.10.21 16:44:15.249</settingsFile>
       <sourceFile>2015.10.21 15:27:19.699</sourceFile>
       <parser>2015.10.11 20:04:01.224</parser>
       <StyleCop.CSharp.DocumentationRules>2015.10.11 20:04:01.224</StyleCop.CSharp.DocumentationRules>
@@ -736,6 +1211,86 @@
       <StyleCopPlus.StyleCopPlusRules.FilesHashCode>0</StyleCopPlus.StyleCopPlusRules.FilesHashCode>
     </timestamps>
     <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>6</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>7</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>11</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>12</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>13</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>14</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>15</line>
+        <warning>False</warning>
+      </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>19</line>
@@ -751,6 +1306,16 @@
         <line>21</line>
         <warning>False</warning>
       </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustEndWithAPeriod" ruleCheckId="SA1629">
+        <context>The documentation text within the summary tag must end with a period.</context>
+        <line>22</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementDocumentationMustBeSpelledCorrectly" ruleCheckId="SA1650">
+        <context>The documentation text within the summary tag contains incorrectly spelled words: Логика, взаимодействия, для, xaml</context>
+        <line>22</line>
+        <warning>False</warning>
+      </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>22</line>
@@ -764,6 +1329,22 @@
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>46</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The constructor must have a documentation header.</context>
+        <line>24</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to InitializeComponent must begin with the 'this.', 'base.', 'object.' or 'MainWindow.' or 'Window.' prefix to indicate the intended method call. </context>
+        <line>26</line>
+        <index>641</index>
+        <endIndex>659</endIndex>
+        <startLine>26</startLine>
+        <startColumn>13</startColumn>
+        <endLine>26</endLine>
+        <endColumn>31</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
@@ -786,6 +1367,21 @@
         <line>27</line>
         <warning>False</warning>
       </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>29</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="OpeningCurlyBracketsMustNotBeFollowedByBlankLine" ruleCheckId="SA1505">
+        <context>An opening curly bracket must not be followed by a blank line.</context>
+        <line>30</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>32</line>
+        <warning>False</warning>
+      </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>29</line>
@@ -799,6 +1395,26 @@
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>32</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>34</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>38</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>39</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>40</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="AdvancedNamingRules" ruleCheckId="SP0100">
@@ -826,6 +1442,21 @@
         <line>40</line>
         <warning>False</warning>
       </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>42</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="OpeningCurlyBracketsMustNotBeFollowedByBlankLine" ruleCheckId="SA1505">
+        <context>An opening curly bracket must not be followed by a blank line.</context>
+        <line>43</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>45</line>
+        <warning>False</warning>
+      </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
         <line>42</line>
@@ -846,7 +1477,7 @@
   <sourcecode name="Settings.Designer.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015.10.11 20:04:01.224</styleCop>
-      <settingsFile>2015.10.21 16:30:21.261</settingsFile>
+      <settingsFile>2015.10.21 16:44:15.249</settingsFile>
       <sourceFile>2015.09.28 20:43:45.084</sourceFile>
       <parser>2015.10.11 20:04:01.224</parser>
       <StyleCop.CSharp.DocumentationRules>2015.10.11 20:04:01.224</StyleCop.CSharp.DocumentationRules>
