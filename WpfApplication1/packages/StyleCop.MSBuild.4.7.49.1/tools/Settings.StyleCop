@@ -216,11 +216,6 @@
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
         </Rule>
-        <Rule Name="FileHeaderMustShowCopyright">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
         <Rule Name="FileHeaderMustHaveSummary">
           <RuleSettings>
             <BooleanProperty Name="Enabled">True</BooleanProperty>
