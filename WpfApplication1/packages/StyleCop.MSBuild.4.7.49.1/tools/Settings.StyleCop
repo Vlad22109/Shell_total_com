@@ -4,6 +4,7 @@
       <Value>preprocessor,pre-processor</Value>
       <Value>shortlived,short-lived</Value>
     </CollectionProperty>
+    <BooleanProperty Name="ViolationsAsErrors">True</BooleanProperty>
   </GlobalSettings>
   <Parsers>
     <Parser ParserId="StyleCop.CSharp.CsParser">
@@ -20,7 +21,6 @@
     <Analyzer AnalyzerId="StyleCop.CSharp.NamingRules">
       <AnalyzerSettings>
         <CollectionProperty Name="Hungarian">
-          <Value> </Value>
           <Value>as</Value>
           <Value>do</Value>
           <Value>id</Value>
