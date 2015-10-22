@@ -36,7 +36,7 @@ private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs 
 private void Button_Click(object sender, RoutedEventArgs e)
 {
 
- }
+}
 
 
 private void SampleName(object sender, RoutedEventArgs e)

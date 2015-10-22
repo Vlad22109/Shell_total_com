@@ -14,6 +14,7 @@
           <Value>\.generated\.cs$</Value>
           <Value>\.g\.i\.cs$</Value>
         </CollectionProperty>
+        <BooleanProperty Name="AnalyzeDesignerFiles">False</BooleanProperty>
       </ParserSettings>
     </Parser>
   </Parsers>

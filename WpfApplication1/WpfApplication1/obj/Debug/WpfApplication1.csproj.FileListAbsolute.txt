@@ -2,7 +2,6 @@ D:\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe.config
 C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe.config
 C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe
 C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.pdb
-C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
 C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.baml
 C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.g.cs
 C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Debug\App.g.cs
@@ -12,3 +11,5 @@ C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplicatio
 C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
 C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.exe
 C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe.CodeAnalysisLog.xml
+C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe.lastcodeanalysissucceeded
