@@ -1,0 +1,15 @@
+C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\bin\Release\Microsoft.Web.XmlTransform.dll
+C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\bin\Release\NuGet.Core.dll
+C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\bin\Release\PA.InnoSetupProcessor.exe
+C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.pdb

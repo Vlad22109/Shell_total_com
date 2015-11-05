@@ -13,7 +13,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using System.Management;
+using System.Globalization;
+using System.ComponentModel;
+using System.Drawing;
 namespace WpfApplication1
 {
 /// <summary>
@@ -21,31 +24,41 @@ namespace WpfApplication1
 /// </summary>
 public partial class MainWindow : Window
 {
-public MainWindow()
-{
-InitializeComponent();
-}
+    private TreeView tvFolders;
+		private ListView lvFiles;
+        private IContainer components;
+        private Menu mainMenu1;
+        private MenuItem menuItem1;
+        private MenuItem menuItem2;
+        private MenuItem menuItem3;
+        private MenuItem menuItem4;
+        private ContextMenu treeContextMenu;
+        private ContextMenuEventArgs miCopy;
+        private ContextMenuEventArgs miPastle;
+        private ContextMenu listContextMenu;
+        private ContextMenuEventArgs lvCopy;
+        private ContextMenuEventArgs lvPastle;
+        private ContextMenu dragContextMenu;
+        private ContextMenuEventArgs miMove;
+        private ContextMenuEventArgs miDropCopy;
+    
+	public MainWindow()
+		{
+			InitializeComponent();
+            PopulateDriveList();
+			
+		}
+   
+   
+    private void PopulateDriveList()
+    {
+      
+       
+    }
 
-private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
-{
 
-}
-
-
-
-private void Button_Click(object sender, RoutedEventArgs e)
-{
-
-}
-
-
-private void SampleName(object sender, RoutedEventArgs e)
-{
-
-}
-
-
-
-}
-}
+}}
+		
+		
+		
 

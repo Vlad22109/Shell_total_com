@@ -3,32 +3,28 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="473.88" Width="751.866">
     <Grid Margin="0,0,-8,-6">
-        <Button Content="c:\" HorizontalAlignment="Left" Height="29" Margin="388,50,0,0" VerticalAlignment="Top" Width="51"/>
-        <Button Content="d:\" HorizontalAlignment="Left" Height="29" Margin="458,50,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.471,0.517" Click="SampleName"/>
-        <Button Content="e:\" HorizontalAlignment="Left" Height="29" Margin="527,50,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.471,0.517"/>
-        <Button Content="f:\" HorizontalAlignment="Left" Height="29" Margin="597,50,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.486,0.365"/>
-        <Button Content="web\" HorizontalAlignment="Left" Height="29" Margin="666,50,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.486,0.365"/>
-        <Button Content="Copy" HorizontalAlignment="Left" Height="29" Margin="66,411,0,0" VerticalAlignment="Top" Width="51"/>
-        <Button Content="Cut" HorizontalAlignment="Left" Height="29" Margin="132,411,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.471,0.517"/>
-        <Button Content="Pastle" HorizontalAlignment="Left" Height="29" Margin="197,411,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.471,0.517"/>
-        <Button Content="delete" HorizontalAlignment="Left" Height="29" Margin="275,411,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.471,0.517"/>
-        <TextBlock HorizontalAlignment="Left" Height="29" Margin="170,44,0,0" TextWrapping="Wrap" Text="search" VerticalAlignment="Top" Width="92"/>
-        <Button Content="open" HorizontalAlignment="Left" Height="29" Margin="348,411,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.471,0.517"/>
-        <Button Content="Search" HorizontalAlignment="Left" Height="29" Margin="88,44,0,0" VerticalAlignment="Top" Width="51" Click="Button_Click"/>
-        <ListView HorizontalAlignment="Left" Height="290" Margin="10,96,0,0" VerticalAlignment="Top" Width="367" SelectionChanged="ListView_SelectionChanged">
+        <Menu HorizontalAlignment="Left" Height="33" Margin="10,10,0,0" VerticalAlignment="Top" Width="732">
+            <MenuItem Header="File" Height="30.769" Width="86.308">
+                <MenuItem Header="Close" HorizontalAlignment="Left" Width="144.506666666667"/>
+            </MenuItem>
+            <MenuItem Header="Help">
+                <MenuItem Header="About" HorizontalAlignment="Left" Width="144.506666666667"/>
+            </MenuItem>
+            <GridSplitter Height="284.231" VerticalAlignment="Top" Width="5.769"/>
+            <MenuItem Header="Контент" Height="29.808" Width="75.962">
+                <MenuItem Header="Копіювати" HorizontalAlignment="Left" Width="144.506666666667">
+                    <MenuItem Header="" HorizontalAlignment="Left" Width="144.506666666667"/>
+                </MenuItem>
+                <MenuItem Header="Вставити" HorizontalAlignment="Left" Width="144.506666666667"/>
+            </MenuItem>
+        </Menu>
+        <ListView HorizontalAlignment="Left" Height="392" Margin="157,48,0,0" VerticalAlignment="Top" Width="585" >
             <ListView.View>
                 <GridView>
                     <GridViewColumn/>
                 </GridView>
             </ListView.View>
         </ListView>
-        <ListView HorizontalAlignment="Left" Height="290" Margin="388,96,0,0" VerticalAlignment="Top" Width="354">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn/>
-                </GridView>
-            </ListView.View>
-        </ListView>
-
+        <TreeView HorizontalAlignment="Left" Height="397" Margin="10,43,0,0" VerticalAlignment="Top" Width="129"/>
     </Grid>
 </Window>
