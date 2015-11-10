@@ -13,3 +13,4 @@ C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplicatio
 C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
 C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.exe
 C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
