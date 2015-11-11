@@ -8,12 +8,12 @@ namespace WpfApplication1
         {
             this.State = state;
         }
-        public void Request()
-        {
-            this.State.Handle(this);
-        }
-        public void Handle(Context context)
-        {
+public void Request()
+       {
+     this.State.Handle(this);
+ }
+public void Handle(Context context)
+   {
             throw new NotImplementedException();
         }
     }
