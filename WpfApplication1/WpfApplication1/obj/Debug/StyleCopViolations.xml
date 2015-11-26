@@ -1,1 +1,4 @@
-<StyleCopViolations />
+<StyleCopViolations>
+  <Violation Section="Root.WpfApplication1.StateDelete.Handle%Context" LineNumber="8" Source="C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\StateDelete.cs" RuleNamespace="StyleCop.CSharp.LayoutRules" Rule="OpeningCurlyBracketsMustNotBeFollowedByBlankLine" RuleId="SA1505">An opening curly bracket must not be followed by a blank line.</Violation>
+  <Violation Section="Root.WpfApplication1.StatePastle.Handle%Context" LineNumber="13" Source="C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\StatePastle.cs" RuleNamespace="StyleCop.CSharp.LayoutRules" Rule="OpeningCurlyBracketsMustNotBeFollowedByBlankLine" RuleId="SA1505">An opening curly bracket must not be followed by a blank line.</Violation>
+</StyleCopViolations>

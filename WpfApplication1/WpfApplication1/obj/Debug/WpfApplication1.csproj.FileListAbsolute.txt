@@ -13,5 +13,4 @@ C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplicatio
 C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.pdb
 C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\bin\Debug\Microsoft.Web.XmlTransform.dll
 C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\bin\Debug\NuGet.Core.dll
-C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\bin\Debug\PA.InnoSetupProcessor.exe
 C:\Users\Влад\Documents\GitHub\Shell_total_com\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
