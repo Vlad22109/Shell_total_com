@@ -14,130 +14,15 @@ namespace WpfApplication1
     public partial class MainWindow : Window
     {
         // Путь к папке
-        private string currentFolderPath;
 
+        private string currentA;
+        private string currentB;
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        // Метод, для очистки содержимого всех элементов управления
-        protected void ClearAllFields()
-        {
-            listBoxFolders.Items.Clear();
-            listBoxFiles.Items.Clear();
-            textBoxFolder.Text = "";
-            textBoxFileName.Text = "";
-            textBoxCreationTime.Text = "";
-            textBoxLastAccessTime.Text = "";
-            textBoxLastWriteTime.Text = "";
-            textBoxFileSize.Text = "";
-        }
-
-        // Метод, для отображения информации о файле
-        protected void DisplayFileInfo(string fileFullName)
-        {
-            FileInfo fi = new FileInfo(fileFullName);
-            if (!fi.Exists)
-            {
-                throw new FileNotFoundException("Файл " + fileFullName + " не найден :(");
-            }
-            textBoxFileName.Text = fi.Name;
-            textBoxFileSize.Text = (fi.Length / 1024).ToString() + " kb";
-            textBoxCreationTime.Text = fi.CreationTime.ToLongTimeString();
-            textBoxLastAccessTime.Text = fi.LastAccessTime.ToLongTimeString();
-            textBoxLastWriteTime.Text = fi.LastWriteTime.ToLongTimeString();
-        }
-
-        // Метод, для отображения содержимого папок в ListBox
-        protected void DisplayFolderList(string folder)
-        {
-            DirectoryInfo di = new DirectoryInfo(folder);
-
-            if (!di.Exists)
-                throw new DirectoryNotFoundException("Папка не найдена :(");
-            ClearAllFields();
-            textBoxFolder.Text = di.FullName;
-            currentFolderPath = di.FullName;
-
-            // Отображение списков всех подпапок и файлов
-            foreach (DirectoryInfo d in di.GetDirectories())
-                listBoxFolders.Items.Add(d.Name);
-
-            foreach (FileInfo f in di.GetFiles())
-                listBoxFiles.Items.Add(f.Name);
-        }
-
-        private void buttonDisplay_Click(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                string folderPath = textBoxInput.Text;
-                DirectoryInfo di = new DirectoryInfo(folderPath);
-                if (di.Exists)
-                {
-                    DisplayFolderList(di.FullName);
-                    return;
-                }
-
-                FileInfo fi = new FileInfo(folderPath);
-                if (fi.Exists)
-                {
-                    DisplayFolderList(fi.Directory.FullName);
-                    int i = listBoxFiles.Items.IndexOf(fi.Name);
-                    listBoxFiles.SelectedIndex = i;
-                    return;
-                }
-
-                throw new FileNotFoundException("Файл или папка с таким именем не существует");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
-
-        private void listBoxFiles_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            try
-            {
-                string selectionString = listBoxFiles.SelectedItem.ToString();
-                string fullFileName = Path.Combine(currentFolderPath, selectionString);
-                DisplayFileInfo(fullFileName);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
-
-        private void listBoxFolders_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            try
-            {
-                string selectionString = listBoxFolders.SelectedItem.ToString();
-                string fullPathName = Path.Combine(currentFolderPath, selectionString);
-                DisplayFolderList(fullPathName);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
-
-        private void buttonUp_Click(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                string folderPath = new FileInfo(currentFolderPath).DirectoryName;
-                DisplayFolderList(folderPath);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
-
+       
         private void ButtonOpen_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
@@ -154,12 +39,12 @@ namespace WpfApplication1
         {
             try
             {
-                string filePath = Path.Combine(currentFolderPath, textBoxFileName.Text);
+                string filePath = Path.Combine(textBoxFileName.Text);
                 string query = "Действительно удалить файл \n" + filePath + " ?";
                 if (MessageBox.Show(query, "Удалить файл?", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
                 {
                     File.Delete(filePath);
-                    DisplayFolderList(currentFolderPath);
+                    
                 }
             }
             catch (Exception ex)
@@ -172,17 +57,17 @@ namespace WpfApplication1
         {
             try
             {
-                string filePath = Path.Combine(currentFolderPath, textBoxFileName.Text);
+                string filePath = Path.Combine(textBoxFileName.Text);
                 string query = "Действительно переместить файл \n" + filePath + " ?";
                 if (MessageBox.Show(query, "Переместить файл?", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
                 {
                     File.Move(filePath, textBoxNewPath.Text);
-                    DisplayFolderList(currentFolderPath);
+                   
                 }
             }
-            catch (Exception ex)
+            finally
             {
-                MessageBox.Show("Ви точно хочете перемвстити файл: " + ex.Message);
+                MessageBox.Show("Ви точно хочете перемістити файл: ");
             }
         }
 
@@ -190,14 +75,125 @@ namespace WpfApplication1
         {
             try
             {
-                string filePath = Path.Combine(currentFolderPath, textBoxFileName.Text);
+                string filePath = Path.Combine(textBoxFileName.Text);
                 File.Copy(filePath, textBoxNewPath.Text);
-                DisplayFolderList(currentFolderPath);
+              
+            }
+            finally
+            {
+                MessageBox.Show("Ви точно хочете скопіювати файл: ");
+            }
+        }
+       
+        private void buttonDisplay_Click(object sender, RoutedEventArgs e)
+        {
+         DirectoryInfo dir = new DirectoryInfo(textBoxInput.Text);
+            listBoxA.Items.Add(dir);
+            currentA = dir.FullName;
+            if (dir.Exists)
+            {
+                
+                DisplayFolderList(dir.FullName);
+                return;
+            }
+            string folderPath = textBoxInput.Text;
+            FileInfo fi = new FileInfo(folderPath);
+            if (fi.Exists)
+            {
+                DisplayFolderList(fi.Directory.FullName);
+                int i = listBoxA.Items.IndexOf(fi.Name);
+                listBoxA.SelectedIndex = i;
+                return;
+            }
+
+        }
+        protected void DisplayFileInfo(string fileFullName)
+        {
+            FileInfo fi = new FileInfo(fileFullName);
+            if (!fi.Exists)
+            {
+                throw new FileNotFoundException("Файл " + fileFullName + " не найден :(");
+            }
+            textBoxFileName.Text = fi.Name;
+            textBoxFileSize.Text = (fi.Length / 1024).ToString() + " kb";
+            textBoxCreationTime.Text = fi.CreationTime.ToLongTimeString();
+            textBoxLastAccessTime.Text = fi.LastAccessTime.ToLongTimeString();
+            textBoxLastWriteTime.Text = fi.LastWriteTime.ToLongTimeString();
+        }
+
+        private void buttonDisplay_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            {
+                DirectoryInfo dir = new DirectoryInfo(textBoxInput.Text);
+                listBoxA.Items.Add(dir);
+                currentA = dir.FullName;
+                if (dir.Exists)
+                {
+
+                    DisplayFolderList(dir.FullName);
+                    return;
+                }
+                string folderPath = textBoxInput.Text;
+                FileInfo fi = new FileInfo(folderPath);
+                if (fi.Exists)
+                {
+                    DisplayFolderList(fi.Directory.FullName);
+                    int i = listBoxB.Items.IndexOf(fi.Name);
+                    listBoxB.SelectedIndex = i;
+                    return;
+                }
+            }
+        }
+        private void listBoxA_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            try
+            {
+                string selectionString = listBoxA.SelectedItem.ToString();
+                               string fullFileName = Path.Combine(currentA, selectionString);
+                DisplayFileInfo(fullFileName);
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Ви точно хочете скопіювати файл: " + ex.Message);
+                MessageBox.Show(ex.Message);
             }
+        }
+
+        private void listBoxB_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            try
+            {
+                string selectionString = listBoxB.SelectedItem.ToString();
+                string fullPathName = Path.Combine(currentB, selectionString);
+                DisplayFolderList(fullPathName);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void DisplayFolderList(string folder)
+        {
+            DirectoryInfo di = new DirectoryInfo(folder);
+            ClearAllFields();
+            currentA = di.FullName;
+            currentB = di.FullName;
+
+            foreach (DirectoryInfo d in di.GetDirectories())
+                listBoxA.Items.Add(d.Name);
+
+            foreach (FileInfo f in di.GetFiles())
+                listBoxA.Items.Add(f.Name);
+        }
+        protected void ClearAllFields()
+        {
+            listBoxB.Items.Clear();
+            listBoxA.Items.Clear();
+            textBoxFileName.Text = "";
+            textBoxCreationTime.Text = "";
+            textBoxLastAccessTime.Text = "";
+            textBoxLastWriteTime.Text = "";
+            textBoxFileSize.Text = "";
         }
     }
 }

@@ -4,9 +4,9 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="WpfApplication1.MainWindow"
         Title="Shell" MinWidth="500" 
         WindowStartupLocation="CenterScreen"
-        SizeToContent="WidthAndHeight" Height="661" d:DesignWidth="569">
+        SizeToContent="WidthAndHeight" Height="661" d:DesignWidth="727">
     <StackPanel Margin="10">
-        <TextBlock Margin="10,0,5,0"><Run Text="Введите путь к папке и нажмите "/><Run Foreground="DarkOrange" Text="Отобразить"/></TextBlock>
+        <TextBlock Margin="10,0,5,0"><Run Foreground="DarkOrange" Text=""/></TextBlock>
         <Grid Margin="10,5,5,5">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
@@ -14,19 +14,18 @@
             </Grid.ColumnDefinitions>
             <TextBox x:Name="textBoxInput" VerticalContentAlignment="Center" FontSize="12" Text="C:\"/>
             <Button x:Name="buttonDisplay" Content="Отобразить" Grid.Column="1" Padding="5"
-				Margin="5,0,5,0" Click="buttonDisplay_Click"/>
+        		Margin="5,-15,5,15" Click="buttonDisplay_Click"/>
+            <TextBox x:Name="textBoxInput_Copy" VerticalContentAlignment="Center" FontSize="12" Text="D:\" Margin="0,32,0,-32"/>
+            <Button x:Name="buttonDisplay_Copy" Content="Отобразить" Grid.Column="1" Padding="5"
+            	Margin="5,32,5,-32" Click="buttonDisplay_Copy_Click"/>
         </Grid>
-        <GroupBox Header="Проводник">
+        <GroupBox Header="" Height="327">
             <StackPanel>
                 <Grid Margin="5">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
                         <ColumnDefinition SharedSizeGroup="myBtnGroup" Width="auto"/>
                     </Grid.ColumnDefinitions>
-                    <TextBox x:Name="textBoxFolder" VerticalContentAlignment="Center" FontSize="12" Foreground="Gray"/>
-                    <Button x:Name="buttonUp" Content="Вверх" Grid.Column="1" Padding="5" 
-						Width="{Binding ActualWidth, ElementName=buttonDisplay}"
-						Margin="5,0,0,0" Click="buttonUp_Click"/>
                 </Grid>
                 <Grid Margin="5">
                     <Grid.ColumnDefinitions>
@@ -37,15 +36,15 @@
                         <RowDefinition/>
                         <RowDefinition/>
                     </Grid.RowDefinitions>
-                    <TextBlock><Run Text="Файлы"/></TextBlock>
-                    <TextBlock Grid.Column="1"><Run Text="Папки"/></TextBlock>
+                    <TextBlock/>
+                    <TextBlock Grid.Column="1"/>
                     <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Row="1">
-                        <ListBox  MinHeight="200" MaxHeight="300" Margin="0,5,5,0" x:Name="listBoxFiles" 
-							SelectionChanged="listBoxFiles_SelectionChanged"/>
+                        <ListBox  MinHeight="200" MaxHeight="300" Margin="0,5,0,0" x:Name="listBoxA" 
+							SelectionChanged="listBoxB_SelectionChanged" Height="207" Width="338"/>
                     </ScrollViewer>
                     <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Row="1" Grid.Column="1">
-                        <ListBox MinHeight="200" MaxHeight="300" SelectionChanged="listBoxFolders_SelectionChanged"
-							Margin="0,5,0,0" x:Name="listBoxFolders" Height="197"/>
+                        <ListBox MinHeight="200" MaxHeight="300" SelectionChanged="listBoxA_SelectionChanged"
+							Margin="0,5,0,0" x:Name="listBoxB" Height="197" Width="312"/>
                     </ScrollViewer>
                 </Grid>
                 <GroupBox Header="Свойства файла">
